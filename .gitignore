@@ -39,5 +39,7 @@ build/
 node_modules
 npm-debug.log
 
-
+# Config file
+config.js
+config/
 
