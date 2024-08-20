@@ -1,8 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const config = require('./config');
+const config = require('./config/config');
+const cors = require('cors');
 
 const app = express();
+
+// Use the cors middleware
+app.use(cors());
+
 const port = process.env.PORT || 3000;
 
 // Connect to MongoDB

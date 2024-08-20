@@ -1,6 +1,6 @@
-# Node.js
-node_modules
-npm-debug.log
+
+# Node modules
+node_modules/
 
 # OS generated files
 .DS_Store
@@ -9,3 +9,35 @@ Thumbs.db
 # IDE files
 .idea
 *.iml
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Debug logs
+npm-debug.log
+
+# Coverage directory
+coverage/
+
+# macOS system files
+*.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+# Node.js
+node_modules
+npm-debug.log
+
+
+
